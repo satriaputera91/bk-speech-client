@@ -89,7 +89,7 @@ How to use
     	}
     	/* setting alamat URL Notula BK Speech API
     	bc = bk_speech_opt_string(&speechBK, BK_RECOGNATION_URL,
-    			"http://api-dev.bahasakita.co.id/speech");
+    			"https://api-dev.bahasakita.co.id/speech");
     	if (bc != BK_SPEECH_OK) {
     		goto err;
     	}
