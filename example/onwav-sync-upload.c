@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 		goto err;
 	}
 
-	/* setting alamat URL Notula BK Speech API
+	/* setting alamat URL Notula BK Speech API*/
 	bc = bk_speech_opt_string(&speechBK, BK_RECOGNATION_URL,
 			"https://api-dev.bahasakita.co.id/speech");
 	if (bc != BK_SPEECH_OK) {

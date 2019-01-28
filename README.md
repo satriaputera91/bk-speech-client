@@ -120,7 +120,7 @@ How to use
             goto err;
         }
 
-        /* baca hasil dari teks to speech per baris kalimat !!! */
+        /* baca hasil dari speech to text per baris kalimat !!! */
         while (!bk_speech_empty_res(speechBK.response)) {
             memset(result, 0, sizeof(result));
             bk_speech_read_res(speechBK.response, &result[0], &len);
