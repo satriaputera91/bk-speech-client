@@ -50,14 +50,14 @@ How to use
 
     int main(int argc, char *argv[]) {
 
-	    SpeechClient speechBK;
-	    BKCode bc;
+        SpeechClient speechBK;
+        BKCode bc;
 
-	    char *byteaudio = NULL;
+        char *byteaudio = NULL;
 
-	    char result[1024];
-	    size_t size = 0;
-	    int len = 0;
+        char result[1024];
+        size_t size = 0;
+        int len = 0;
 
 	    /* ambil audio format wav, tanpa header (header less) format RAW 16KHZ 16BIT */
 	    size = wav2bytes(argv[1], &byteaudio);
