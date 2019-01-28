@@ -88,9 +88,8 @@ How to use
     		goto err;
     	}
     	/* setting alamat URL Notula BK Speech API
-    	 bk_speech_opt_string(&speechBK, BK_RECOGNATION_URL,"http://10.226.174.3:7681/speech");*/
     	bc = bk_speech_opt_string(&speechBK, BK_RECOGNATION_URL,
-    			"http://10.226.174.3:7681/speech");
+    			"http://api-dev.bahasakita.co.id/speech");
     	if (bc != BK_SPEECH_OK) {
     		goto err;
     	}
