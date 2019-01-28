@@ -28,7 +28,7 @@ json-c
 
 Installing depedencies
 ----------------------
-    sudo apt-get install curl uuid openssl
+    sudo apt-get install curl uuid openssl automake autoconf libssl-dev libcurl4-openssl-dev uuid-dev
 
 How to use
 ----------

@@ -1,11 +1,11 @@
 prefix=
 exec_prefix=
-libdir=/home/satria/Program/bk-speech-client/tools/json-c
-includedir=/home/satria/Program/bk-speech-client/tools/json-c
+libdir=/home/stria/bk-speech-client/tools/json-c
+includedir=/home/stria/bk-speech-client/tools/json-c
 
 Name: json
 Description: JSON implementation in C
 Version: 0.13.99
 Requires:
-Libs:  -L/home/satria/Program/bk-speech-client/tools/json-c -ljson-c
-Cflags: -I/home/satria/Program/bk-speech-client/tools/json-c
+Libs:  -L/home/stria/bk-speech-client/tools/json-c -ljson-c
+Cflags: -I/home/stria/bk-speech-client/tools/json-c
