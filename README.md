@@ -34,7 +34,7 @@ How to use
 ----------
 
 
-    *
+    /*
     ============================================================================
     Name        : main onwav-sync-upload
     Author      : satriaputera91@gmail.com
