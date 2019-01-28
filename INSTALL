@@ -1,0 +1,11 @@
+This is the official BahasaKita Speech Client API INSTALL. Look also at INSTALL.md for the git mirror installation.
+
+(1) Install json-c
+go to tools/json-c  and follow INSTALL instructions there.
+
+(2) 
+go to src/ and follow INSTALL instructions there.
+
+(3) 
+go to example/ and follow INSTALL instructions there.
+

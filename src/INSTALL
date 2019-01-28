@@ -1,0 +1,11 @@
+These instructions are valid for UNIX-like systems (these steps have
+been run on various Linux distributions; Darwin; Cygwin).  
+
+The installation instructions are
+  make clean
+  make
+  sudo make install
+
+
+For more information, 
+contact email us : info@bahasakita.co.id 
