@@ -147,28 +147,28 @@ How to use
     
     size_t wav2bytes(const char *filename, char **byteaudio) {
     
-    	FILE *file;
-    	size_t filesize = 0;
-    
-    	if ((file = fopen(filename, "rb")) != NULL) {
-    
-    		fseek(file, 0, SEEK_END);
-    		filesize = ftell(file) - 44;
-    		rewind(file);
-    		fseek(file, 44, SEEK_SET);
-    		*byteaudio = malloc(filesize * sizeof(char));
-    		//header less
-    		long int result = fread(*byteaudio, 1, filesize, file);
-    		if (result != filesize) {
-    			filesize = 0;
-    		}
-    
-    		fclose(file);
-    
-    		return filesize;
-    	}
-    
-    	return filesize;
+        FILE *file;
+        size_t filesize = 0;
+
+        if ((file = fopen(filename, "rb")) != NULL) {
+
+            fseek(file, 0, SEEK_END);
+            filesize = ftell(file) - 44;
+            rewind(file);
+            fseek(file, 44, SEEK_SET);
+            *byteaudio = malloc(filesize * sizeof(char));
+            //header less
+            long int result = fread(*byteaudio, 1, filesize, file);
+            if (result != filesize) {
+                filesize = 0;
+            }
+
+            fclose(file);
+
+            return filesize;
+        }
+
+        return filesize;
     }
 
 
